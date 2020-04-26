@@ -230,7 +230,7 @@ body {
 	}
 
 	.cabecalhoPrincipal-titulo {
-		margin: 0;
+		margin: 0;	
 	}
 
 	.cabecalhoPrincipal-nav {
@@ -284,11 +284,10 @@ body {
 
 }
 
+
 .rodapePrincipal-patrocinadores .container {
 	display: flex;
 	justify-content: space-between;
-
-
 }
 
 
@@ -297,7 +296,6 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	width: 70%;
-	
 }
 
 .rodapePrincipal-contatoForm {
@@ -314,4 +312,15 @@ body {
 	flex-wrap: wrap; */
 	flex-flow: column wrap;
 	height: 250px;
+}
+
+.cabecalhoPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+
 }
