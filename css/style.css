@@ -230,7 +230,7 @@ body {
 	}
 
 	.cabecalhoPrincipal-titulo {
-		margin: 0;
+		margin: 0;	
 	}
 
 	.cabecalhoPrincipal-nav {
@@ -284,4 +284,8 @@ body {
 
 }
 
-
+.cabecalhoPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
