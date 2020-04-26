@@ -284,6 +284,36 @@ body {
 
 }
 
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+}
+
+.rodapePrincipal-contatoForm {
+	width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	/*flex-direction: column;
+	flex-wrap: wrap; */
+	flex-flow: column wrap;
+	height: 250px;
+}
+
 .cabecalhoPrincipal .container {
 	display: flex;
 	align-items: center;
@@ -292,4 +322,5 @@ body {
 
 .cabecalhoPrincipal-nav {
 	display: flex;
+
 }
