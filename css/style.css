@@ -352,12 +352,14 @@ body {
 	flex-grow: 1;
 }
 .videoSobre-video {
-	flex-grow: 4;
+	flex-grow: 2;
+	flex-shrink: 2;
 }
 
 /*Parte mobile*/
 
 @media(max-width: 768px) {
+
 	.cabecalhoPrincipal-nav {
 		flex-direction: column;
 	}
@@ -387,5 +389,17 @@ body {
 	}
 	.cabecalhoPrincipal-nav-link-app{
 		order: -1;
+	}
+	.videoSobre .container {
+		flex-direction: column;
+	}
+	.videoSobre-video {
+		margin: 0 auto;
+	}
+	.videoSobre-sobre{
+		flex-grow: 0;
+	}
+	.videoSobre-sobre-list {
+		flex-grow: 0;
 	}
 }
