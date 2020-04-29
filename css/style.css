@@ -334,6 +334,27 @@ body {
 	margin-left: 0;
 }
 
+.videoSobre .container {
+	display: flex;
+	height: 580px;
+}
+
+.videoSobre-sobre {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 3;
+	height: 580px;
+}
+
+.videoSobre-sobre-list {
+	flex-grow: 1;
+}
+.videoSobre-video {
+	flex-grow: 4;
+}
+
 /*Parte mobile*/
 
 @media(max-width: 768px) {
